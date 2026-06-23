@@ -295,6 +295,55 @@ nav {
 /**********************
 *        FOOTER       *
 **********************/
+footer {
+    background-color: #242424;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0;
+}
+
+.footer__anchor {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.footer__anchor:hover .footer__logo--popper{
+    transform: translateX(70px);
+    opacity: 1;
+}
+
+.footer__logo--img {
+    width: 90px;
+    height: 90px;
+}
+
+.footer__logo--popper {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    font-weight: 700;
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 28px;
+}
+
+.footer__social--link,
+.footer__copyright,
+.footer__logo--popper {
+    color: white;
+}
 
 /* Small devices */
 
