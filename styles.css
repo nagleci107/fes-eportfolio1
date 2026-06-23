@@ -160,7 +160,51 @@ nav {
 }
 
 /*       Tech Stack        */
+.lang__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
 
+.lang {
+    position: relative;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.lang__img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.lang:hover .lang__img {
+    filter: brightness(80%);
+    opacity: 0.86;
+    transform: scale(0.9);
+    transition: all 200ms ease-in-out;
+}
+
+.lang__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.lang__name {
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 200ms;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.lang:hover .lang__name {
+    transform: scale(1);
+    opacity: 1;
+}
 
 /*       Projects        */
 
