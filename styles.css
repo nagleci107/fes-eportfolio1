@@ -399,7 +399,35 @@ nav {
     margin-right: 16px;
 }
 
+/*     Contact    */
+#contact {
+    padding-bottom: 28px;
+}
 
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+input,
+textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+button {
+    background-color: #5d3eff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
 
 /**********************
 *        FOOTER       *
